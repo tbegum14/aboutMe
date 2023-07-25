@@ -1,0 +1,54 @@
+*{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display:flex;
+    list-style: none;
+}
+
+header nav li{
+    padding: 0 20px;
+}
+h2{
+    font-size: 2rem;
+
+}
+.container h2{
+    text-align: center;
+}
+
+#picMe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container p{
+    margin-right: 5rem;
+}
+
+.projectContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+strong{
+    color: red;
+}
